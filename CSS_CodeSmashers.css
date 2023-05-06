@@ -1,0 +1,223 @@
+
+/*---------------default Setting--------------*/
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+}
+/* ------------------Body------------------- */
+body{
+    margin: 0;
+}
+
+/* -------------------Header------------------*/
+header{
+    padding: 50px;
+    text-align: center;
+    background-color: #293462;
+    color: white;
+    background-attachment: fixed;
+   
+    
+    
+}
+
+header h1{
+    font-size: 40px;
+
+}
+/* -------------------Nav-------------------- */
+footer ,nav 
+{
+    display: flex;
+    background-color: #D61C4E;
+    /* overflow: hidden; */
+
+    
+}
+footer a, nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ nav a:hover{
+background-color: white;
+color: #D61C4E;
+font-weight: 600;
+}
+footer a:hover{
+    background-color: white;
+    color: #D61C4E;
+    font-weight: 600;
+    }
+
+#login{
+    background-color: #FFF80A;
+   
+    border: 2px;
+    color:#D61C4E;
+    font-weight: 600;
+   
+}
+#login:hover{
+    background-color: white;
+}
+/* -----------------------Main------------------*/
+section{
+
+    text-align: center;
+    height: 100%;
+    padding: 40px 0px;
+    min-height: 40vh;
+
+}
+
+section:nth-child(even){
+    background-color:#ececec ;
+}
+
+iframe{
+    padding: 0px 5px ;
+}
+.profile-img{
+    padding: 5px 5px;
+}
+.profile-name{
+ font-size: 2em;
+ font-weight: 900;
+ letter-spacing: 4px;
+ word-spacing: 7px;
+ text-transform: capitalize;
+ margin: 20px 0px 30px;
+}
+
+h2{
+    margin: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    background-color: #FEB139;
+    border-radius: 5px;
+   
+}
+/* -----------------Footer----------------- */
+
+
+
+
+
+section h5{
+    margin: 0px 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sm-handle a{
+
+    
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    background-color: #293462;
+    color: white;
+    font-weight: 600;
+
+}
+.sm-handle a:hover{
+    background-color: white;
+    color: #000000;
+}
+.sm-handle a i{
+    margin: 5px;
+}
+.yt-handle{
+    color: #FF0000;
+}
+.ig-handle{
+    color: #dd2a7b ;
+}
+.li-handle{
+    color: #0072b1 ;
+}
+/* --------------------About Us------------------- */
+.about-us{
+  margin: 50px;
+}
+.about-title{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color:#D61C4E;
+}
+.about-content{
+    color: #1c1a3a;
+    font-weight: 900;
+    padding-bottom: 10px 0px 20px 0px;
+}
+
+.copyright{
+    float: right;
+}
+img.hover-shadow {
+    transition: 0.5s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .flex-align-right{
+    margin-left: auto;
+  }
+
+
+
+  /* -------------------------carousal CSS -------------------------*/
+
+.carousel-cell {
+    width: 50%;
+    height: 450px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+.carousel-cell video{
+    max-width: 100%;
+}
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------media Query--------------------- */
+
+  @media screen and (max-width: 700px) {
+    footer,nav {
+        flex-direction: column;
+        text-align: center;
+        /* padding: 10px 0px; */
+       
+    }
+    .flex-align-right{
+        margin-left: 0;
+    }
+    
+    
+  }
+
+
+ 
